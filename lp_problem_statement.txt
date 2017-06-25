@@ -1,0 +1,48 @@
+######
+Linear Programming - Problem Statement 
+######
+
+The U-save company is planning its operations for the next year.  The company is considering investing in four types of securities.  The company has $1 million available for investment. The expected annual return and the “risk index” of each security are as follows:
+
+Bonds			Expected return 	Risk index (%)
+Long-term Bonds 	15% 			3
+Medium-term Bonds 	12% 			4
+Government Bonds 	9% 			7
+Short-term Bonds 	10% 			9
+
+The company wants to maximize the expected return from its bond investments, subject to the following restrictions:
+1.	The average risk index of the portfolio should not exceed 6
+2.	At most 45% of the total amount invested can be invested in any single bond
+3.	The expected return of the Government bond portfolio should be at least 1.2 times the return of the Long term and medium term bond portfolio.
+
+Formulate the problem as a LP problem. Define the decision variables carefully and obtain an optimal solution. 
+ 
+
+
+######
+Proposed Solution:
+######
+
+Decision Variables:
+X1 - Amount of money spent in Long-term bonds
+X2 - Amount of money spent in Medium-term bonds
+X3 - Amount of money spent in Government bonds
+X4 - Amount of money spent in Short-term bonds
+
+Objective function:
+Maximize Z = 15 X1 + 12 X2 + 9 X3 + 10 X4
+
+Constraints:
+1.	Average risk index
+a.	(3 X1 + 4 X2 + 7 X3 + 9 X4) /4 <= 6 
+2.	Amount invested in any single bond
+a.	X1 <= 0.45 
+b.	X2 <= 0.45 
+c.	X3 <= 0.45 
+d.	X4 <= 0.45 
+3.	Expected return of the Government bond portfolio
+a.	9 X3 >= 1.2 (15 X1 + 12 X2)
+4.	Cash available for investment 
+a.	X1+X2+X3+X4 = 1 
+5.	Non-negativity constraints
+a.	X1, X2, X3, X4 >= 0
