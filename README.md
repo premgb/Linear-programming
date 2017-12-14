@@ -1,7 +1,6 @@
 # linear_programming
-Linear programming (optimization technique)<br>
-Author: Prem
+<b><u>Linear Programming (LP - an Optimization technique)</u></b>
 
-This repo illustrate Linear Programming using R <br>
-Problem Statement is in lp_problem_statement.txt<br>
-Code: solver.R
+<br>
+<h3>solver.R</h3>
+It illustrates how to solve Optimization Problem using Linear Programming in R. Detailed 'problem Statement' is in lp_problem_statement.txt.
