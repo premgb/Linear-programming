@@ -18,7 +18,6 @@ The company wants to maximize the expected return from its bond investments, sub
 Formulate the problem as a LP problem. Define the decision variables carefully and obtain an optimal solution. 
  
 
-
 ######
 Proposed Solution:
 ######
