@@ -1,6 +1,6 @@
 #######################################################################################
 ##                                                                                   ##
-##Linear programming (optimization technique)                                        ##
+## Linear programming (optimization technique)                                        ##
 ##                                                                                   ##
 #######################################################################################
 #install.packages("lpSolveAPI")
